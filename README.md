@@ -7,7 +7,7 @@ A lightweight toolkit of Bash scripts to streamline SSH user provisioning, key m
 ## 📁 Directory Structure
 
 ```
-ccclops-ssh-keys/
+batch_linux_user_insert/
 ├── ssh_keys/              # SSH public keys directory
 ├── users.csv              # User configuration
 ├── usergen.sh             # User generation script
