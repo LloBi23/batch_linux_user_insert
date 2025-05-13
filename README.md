@@ -7,7 +7,7 @@
 ```
 ccclops-ssh-keys/
 ├── ssh_keys/              # SSH public keys directory
-├── users.csv           # User configuration
+├── users.csv              # User configuration
 ├── usergen.sh             # User generation script
 ├── verify_keys.sh         # Key verification script
 ├── cleanup.sh             # User cleanup script
@@ -171,10 +171,6 @@ All scripts include:
 
 MIT License
 
-## 📮 Contact
-
-* Project Link: [https://github.com/yourusername/ccclops-ssh-keys](https://github.com/yourusername/ccclops-ssh-keys)
-
 ---
 
-*Built with ❤️ by \[Your Organization]*
+*Built with ❤️ for batch scripts*
