@@ -173,10 +173,4 @@ All scripts include:
 
 MIT License
 
-## 📮 Contact
-
-* Project Link: [https://github.com/yourusername/ccclops-ssh-keys](https://github.com/yourusername/ccclops-ssh-keys)
-
----
-
-*Built with ❤️ by \[Your Organization]*
+*Built with ❤️ for bash scripts*
