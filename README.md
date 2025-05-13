@@ -1,4 +1,4 @@
-# CCClops SSH User Management Tools
+# Batch User Management Tools
 
 > A collection of bash scripts for managing SSH users, keys, and access verification in Linux environments.
 
