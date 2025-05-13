@@ -1,4 +1,6 @@
-# Batch User Management Tools
+# Batch User Management Tools for Linux environments
+
+A lightweight toolkit of Bash scripts to streamline SSH user provisioning, key management, and access validation across your Linux servers.
 
 > A collection of bash scripts for managing SSH users, keys, and access verification in Linux environments.
 
@@ -27,8 +29,8 @@ ccclops-ssh-keys/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ccclops-ssh-keys.git
-   cd ccclops-ssh-keys
+   git clone https://github.com/LloBi23/batch_linux_user_insert.git
+   cd batch_linux_user_insert
    ```
 
 2. Make scripts executable:
@@ -73,7 +75,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAA... user@host
 ### User Generation
 
 ```bash
-sudo ./usergen.sh
+sudo ./usergen.sh users.csv ssh_keys/
 ```
 
 Creates users and configures SSH access.
@@ -81,7 +83,7 @@ Creates users and configures SSH access.
 ### Key Verification
 
 ```bash
-sudo ./verify_keys.sh
+sudo ./verify_keys.sh users.csv ssh_keys/
 ```
 
 Verifies SSH key installations.
@@ -89,9 +91,9 @@ Verifies SSH key installations.
 ### User Cleanup
 
 ```bash
-sudo ./cleanup.sh        # Interactive
-sudo ./cleanup.sh -b     # Batch mode (list only)
-sudo ./cleanup.sh -y     # Auto-confirm
+sudo ./cleanup.sh users.csv        # Interactive
+sudo ./cleanup.sh users.csv -b     # Batch mode (list only)
+sudo ./cleanup.sh users.csv -y     # Auto-confirm
 ```
 
 Removes unwanted user accounts.
@@ -99,7 +101,7 @@ Removes unwanted user accounts.
 ### Login Testing
 
 ```bash
-sudo ./logintest.sh
+sudo ./logintest.sh users.csv
 ```
 
 Tests SSH authentication.
@@ -156,7 +158,7 @@ All scripts include:
 3. **Key Verification Failed**
 
    ```bash
-   sudo ./verify_keys.sh
+   sudo ./verify_keys.sh users.csv ssh_keys/
    ```
 
 ## 👥 Contributing
@@ -171,6 +173,10 @@ All scripts include:
 
 MIT License
 
+## 📮 Contact
+
+* Project Link: [https://github.com/yourusername/ccclops-ssh-keys](https://github.com/yourusername/ccclops-ssh-keys)
+
 ---
 
-*Built with ❤️ for batch scripts*
+*Built with ❤️ by \[Your Organization]*
